@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Nishu - IT Student journey and professional background">
-    <title>About Nishu | Professional Journey</title>
-    
+    <meta name="description" content="About Nishu Gurung — BSc (Hons) Computing student at Informatics College Pokhara, interested in web development and UI/UX design.">
+    <title>About | Nishu Gurung</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,32 +15,83 @@
     <site-navbar></site-navbar>
 
     <main>
+        <!-- Page Header -->
         <header class="page-header">
             <div class="container">
+                <p class="section-label">Who I Am</p>
                 <h1>About Me</h1>
-                <p>Discover my journey into the world of Information Technology</p>
+                <p>A Computing student interested in web development and learning through practical work.</p>
             </div>
         </header>
 
+        <!-- About Content -->
         <section class="section-padding">
             <div class="container">
-                <div class="about-content">
-                    <div class="about-image">
-                        <div class="text-center" style="color: var(--secondary-color);">
-                            <span style="font-size: 5rem;">&#128104;&#8205;&#128187;</span>
-                            <h3 class="mt-2 text-primary">IT Enthusiast</h3>
+                <div class="about-layout">
+
+                    <!-- Photo / Initials -->
+                    <div class="about-photo-wrap">
+                        <!--
+                            PHOTO: To display your photo here:
+                            1. Save as:  assets/profile.jpg
+                            2. Replace the div.avatar-initials with:
+                               <img src="assets/profile.jpg" alt="Nishu Gurung — portrait"
+                                    style="width:100%;height:100%;object-fit:cover;object-position:center top;">
+                        -->
+                        <div class="about-photo-box">
+                            <div class="avatar-initials" role="img" aria-label="Nishu Gurung — initials avatar">NG</div>
                         </div>
                     </div>
-                    <div class="about-text">
-                        <h2>My Professional Journey</h2>
-                        <p>Hello! I'm <strong>Nishu</strong>, an IT student with a passion for building robust tech infrastructures and solving complex problems. I started my journey exploring how computer networks and operating systems communicate and operate seamlessly.</p>
-                        
-                        <p>Over the course of my studies, I've developed a profound interest in <strong>System Administration</strong> and <strong>Server Management</strong>. I enjoy managing resources, maintaining network security, and ensuring everything runs with high reliability.</p>
 
-                        <p>Beyond the command line and servers, I have extensive experience organizing data, drafting technical documentation, and creating presentations using the <strong>Microsoft Office Suite</strong>.</p>
-                        
+                    <!-- Text Content -->
+                    <div class="about-text">
+                        <p class="section-label">My Story</p>
+                        <h2 class="section-heading">Hello, I'm Nishu Gurung</h2>
+
+                        <p>
+                            I am a BSc&nbsp;(Hons) Computing student at <strong>Informatics College Pokhara</strong>,
+                            affiliated with <strong>London Metropolitan University, UK</strong>. My expected graduation
+                            is <strong>2027</strong> (subject to confirmation). I am based in Pokhara-16, Deep, Nepal.
+                        </p>
+
+                        <p>
+                            I got interested in web development because I enjoy the combination of logic and creativity
+                            it involves — designing layouts that look good, writing code that works, and thinking about
+                            how users will interact with a page. I have been learning HTML, CSS, JavaScript and React
+                            through my coursework and by working on small personal and academic projects.
+                        </p>
+
+                        <p>
+                            I am at the beginning of my career and I know I have a lot to learn. I am looking for an
+                            <strong>internship in frontend development or UI/UX</strong> where I can work alongside
+                            more experienced developers, receive feedback and improve through real-world practice.
+                            I am a quick learner and I take that seriously.
+                        </p>
+
+                        <!-- Education Card -->
+                        <div class="edu-card">
+                            <p class="section-label" style="margin-bottom:.3rem;">&#127979; Education</p>
+                            <h4>BSc (Hons) Computing</h4>
+                            <p>Informatics College Pokhara</p>
+                            <p>Affiliated with London Metropolitan University, UK</p>
+                            <p>Expected graduation: 2027 (subject to confirmation)</p>
+                        </div>
+
+                        <!-- Interests -->
+                        <div class="mt-3">
+                            <h4 style="margin-bottom:.6rem;">Areas of Interest</h4>
+                            <div class="interests-list">
+                                <span class="interest-chip">Frontend Development</span>
+                                <span class="interest-chip">UI / UX Design</span>
+                                <span class="interest-chip">Responsive Web Design</span>
+                                <span class="interest-chip">React</span>
+                                <span class="interest-chip">Figma &amp; Prototyping</span>
+                            </div>
+                        </div>
+
                         <div class="mt-4">
-                            <a href="contact.html" class="btn btn-primary">Let's Connect</a>
+                            <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                            <a href="resume.html"  class="btn btn-outline" style="margin-left:.75rem;">View Resume</a>
                         </div>
                     </div>
                 </div>

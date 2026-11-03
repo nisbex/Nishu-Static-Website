@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume of Nishu Gurung — BSc (Hons) Computing student, aspiring web developer.">
+    <title>Resume | Nishu Gurung</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <style>
+        /* Resume-specific overrides */
+        @media print {
+            .navbar, .footer, .print-bar, .page-header, site-navbar, site-footer { display: none !important; }
+            body  { background: #fff; font-size: 13px; }
+            .section-padding { padding: 1rem 0 2rem; }
+            .resume-wrap { max-width: 100%; }
+            .resume-section, .resume-header-bar {
+                border: 1px solid #ccc;
+                box-shadow: none;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <site-navbar></site-navbar>
+
+    <main>
+        <header class="page-header">
+            <div class="container">
+                <p class="section-label">My Resume</p>
+                <h1>Resume</h1>
+                <p>One-page resume with verified information. Print or save as PDF using the button below.</p>
+            </div>
+        </header>
+
+        <section class="section-padding">
+            <div class="container">
+
+                <!-- Print / Download actions -->
+                <div class="print-bar">
+                    <button onclick="window.print()" class="btn btn-primary">
+                        &#128196; Save as PDF / Print
+                    </button>
+                    <a href="index.html" class="btn btn-ghost">&#8592; Back to Home</a>
+                </div>
+
+                <div class="resume-wrap">
+
+                    <!-- Header -->
+                    <div class="resume-header-bar">
+                        <div>
+                            <h1 style="margin-bottom:.2rem;">Nishu Gurung</h1>
+                            <p class="resume-title">BSc (Hons) Computing Student &nbsp;|&nbsp; Aspiring Web Developer</p>
+                        </div>
+                        <div class="resume-contact-row">
+                            <span>&#9993; <a href="mailto:grgnishu11@gmail.com">grgnishu11@gmail.com</a></span>
+                            <span>&#128222; <a href="tel:+9779703605057">+977-9703605057</a></span>
+                            <span>&#127760; <a href="https://nishugurung.com.np/" target="_blank" rel="noopener">nishugurung.com.np</a></span>
+                            <span>&#128205; Pokhara-16, Deep, Nepal</span>
+                        </div>
+                    </div>
+
+                    <!-- Profile -->
+                    <div class="resume-section">
+                        <h2>Profile</h2>
+                        <p style="margin:0; font-size:.95rem; line-height:1.75;">
+                            BSc&nbsp;(Hons) Computing student at Informatics College Pokhara (affiliated with London Metropolitan
+                            University, UK) with foundational knowledge of HTML, CSS, JavaScript, React and Python.
+                            I enjoy building web interfaces and am actively seeking a <strong>frontend or UI/UX internship</strong>
+                            where I can contribute to real projects, learn from experienced developers and grow through
+                            practical work.
+                        </p>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="resume-section">
+                        <h2>Education</h2>
+                        <div class="resume-entry">
+                            <h4>BSc (Hons) Computing</h4>
+                            <p class="meta">
+                                Informatics College Pokhara &nbsp;|&nbsp;
+                                Affiliated: London Metropolitan University, UK &nbsp;|&nbsp;
+                                Expected graduation: 2027 (subject to confirmation)
+                            </p>
+                            <p>Studying software development, web technologies, programming fundamentals and computing theory.</p>
+                        </div>
+                    </div>
+
+                    <!-- Technical Skills -->
+                    <div class="resume-section">
+                        <h2>Technical Skills</h2>
+                        <div class="resume-skills-grid">
+                            <div class="resume-skill-item">HTML — Semantic structure &amp; forms</div>
+                            <div class="resume-skill-item">CSS — Responsive layouts, Flexbox, Grid</div>
+                            <div class="resume-skill-item">JavaScript — Fundamentals &amp; DOM</div>
+                            <div class="resume-skill-item">React — Components, JSX, props, state</div>
+                            <div class="resume-skill-item">Python — Programming fundamentals</div>
+                            <div class="resume-skill-item">Figma — UI design &amp; prototyping</div>
+                            <div class="resume-skill-item">Java — OOP basics (academic projects)</div>
+                            <div class="resume-skill-item">Git &amp; GitHub — Version control</div>
+                        </div>
+                        <p style="font-size:.82rem; color:var(--text-muted); margin-top:.75rem; margin-bottom:0;">
+                            Note: Skills are at a foundational level developed through coursework and academic projects.
+                            Java and Git are listed subject to verification of scope.
+                        </p>
+                    </div>
+
+                    <!-- Projects -->
+                    <div class="resume-section">
+                        <h2>Academic &amp; Personal Projects</h2>
+
+                        <div class="resume-entry">
+                            <h4>Shoe E-Commerce Website <span style="font-weight:400; color:var(--text-muted);">— Frontend Academic Project</span></h4>
+                            <p class="meta">HTML · CSS · JavaScript</p>
+                            <p>
+                                Responsive frontend e-commerce interface for a shoe store. Includes product listing,
+                                navigation and static layout. No backend or database. Solo academic project.
+                            </p>
+                        </div>
+
+                        <div class="resume-entry">
+                            <h4>Bookstore Website <span style="font-weight:400; color:var(--text-muted);">— Frontend Academic Project</span></h4>
+                            <p class="meta">React · JavaScript · HTML · CSS</p>
+                            <p>
+                                React-based bookstore application demonstrating component architecture,
+                                JSX, props and basic state management. Academic coursework project.
+                            </p>
+                        </div>
+
+                        <div class="resume-entry">
+                            <h4>Art Gallery Management System <span style="font-weight:400; color:var(--text-muted);">— Desktop Academic Project</span></h4>
+                            <p class="meta">Java</p>
+                            <p>
+                                Java desktop application for managing gallery data.
+                                <!-- CONFIRM: Verify scope of features before publishing. -->
+                                Academic project applying object-oriented programming concepts.
+                            </p>
+                        </div>
+
+                        <div class="resume-entry">
+                            <h4>Smart Marble Maze Game <span style="font-weight:400; color:var(--text-muted);">— IoT Academic Project</span></h4>
+                            <p class="meta">IoT · Sensors · Hardware integration</p>
+                            <p>
+                                Academic IoT project integrating sensors and hardware to control a marble maze.
+                                <!-- CONFIRM: Add specific hardware/software details when verified. -->
+                            </p>
+                        </div>
+
+                        <div class="resume-entry" style="margin-bottom:0;">
+                            <h4>Personal Portfolio Website <span style="font-weight:400; color:var(--text-muted);">— Personal Project</span></h4>
+                            <p class="meta">HTML5 · CSS3 · JavaScript · Web Components · Cloudflare Pages</p>
+                            <p>
+                                Multi-page portfolio built with plain HTML, CSS and JavaScript using the Web Components API.
+                                AI-assisted development via Antigravity (Google DeepMind). Deployed on Cloudflare Pages.
+                                <a href="https://nishugurung.com.np/" target="_blank" rel="noopener">nishugurung.com.np</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Internship Availability -->
+                    <div class="resume-section">
+                        <h2>Internship Availability</h2>
+                        <p style="margin:0; font-size:.95rem;">
+                            I am actively seeking a <strong>frontend development or UI/UX internship</strong>.
+                            Available for discussion. Pokhara-based, open to remote opportunities.
+                            Contact: <a href="mailto:grgnishu11@gmail.com">grgnishu11@gmail.com</a>
+                            &nbsp;|&nbsp; <a href="tel:+9779703605057">+977-9703605057</a>
+                        </p>
+                    </div>
+
+                    <!-- Accuracy note (visible on screen, hidden when printed) -->
+                    <div class="form-note" style="margin-top:1.25rem;" role="note">
+                        <strong>&#8505;&#65039; Accuracy note:</strong> This resume contains only verified details.
+                        Items marked with "CONFIRM" in the project source code require your review before the
+                        final public version. No certifications, employment history or unverified achievements
+                        have been included.
+                    </div>
+
+                </div><!-- /.resume-wrap -->
+            </div>
+        </section>
+    </main>
+
+    <site-footer></site-footer>
+    <script src="js/components.js"></script>
+</body>
+</html>
