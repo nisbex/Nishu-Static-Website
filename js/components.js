@@ -9,7 +9,7 @@ class SiteNavbar extends HTMLElement {
             <nav class="navbar" role="navigation" aria-label="Main navigation">
                 <div class="container nav-container">
                     <a href="index.html" class="logo" aria-label="Nishu Gurung — Home">
-                        Nishu<span>.</span>dev
+                        Nishu
                     </a>
                     <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
                         &#9776;

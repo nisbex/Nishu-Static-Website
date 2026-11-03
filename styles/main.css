@@ -4,19 +4,24 @@
    ========================================================= */
 
 :root {
-    /* Colour tokens */
-    --primary:        #2563EB;   /* blue accent */
-    --primary-hover:  #1D4ED8;
-    --primary-light:  #EFF6FF;
-    --primary-border: #BFDBFE;
+    /* ── Royal Purple & Gold Palette ── */
+    --primary:        #6D28D9;   /* royal purple */
+    --primary-hover:  #5B21B6;
+    --primary-light:  #EDE9FE;
+    --primary-border: #C4B5FD;
 
-    --bg:             #FAFAF9;   /* warm white page */
+    --gold:           #C9951A;   /* warm gold accent */
+    --gold-hover:     #A07714;
+    --gold-light:     #FFFBEB;
+    --gold-border:    #FDE68A;
+
+    --bg:             #FDFCFF;   /* very slight lavender white */
     --surface:        #FFFFFF;   /* card / form surfaces */
-    --surface-alt:    #F8FAFC;   /* subtle section tint */
+    --surface-alt:    #F9F7FF;   /* subtle purple-tint section bg */
 
-    --text:           #1E293B;   /* body text */
-    --text-muted:     #64748B;   /* secondary / captions */
-    --text-light:     #94A3B8;
+    --text:           #1A0533;   /* deep purple-dark body text */
+    --text-muted:     #5B4F72;   /* secondary / captions */
+    --text-light:     #9C8FB5;
 
     --border:         #E2E8F0;
     --shadow-sm:      0 1px 3px rgba(0,0,0,.05);
